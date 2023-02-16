@@ -1,0 +1,1034 @@
+*{margin:0; padding:0;}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    margin-bottom:7%;
+}
+body{
+    font-family: "urbane", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.title h1{
+    margin-top:7%;
+    margin-left:10%;
+    font-size: 2.5vw;
+}
+/*A*/
+.A {
+    position: relative;
+    width: 100%;
+    grid-row:1;
+    grid-column: 1 / span 2;
+    background:radial-gradient(#ffffff,#6690af,#235b84);
+}
+.imageA{
+    float: left;
+    width: 56%;
+    height: auto; 
+    padding-left:22%;
+}
+.titleA{
+    color:white;
+    font-size: 3vw;
+    padding: 5% 7% 0 7%;
+}
+.A:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  .A:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  .A:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  .A:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+  }
+.overlayA {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.A:hover .overlayA {
+    opacity: 80%;
+}
+.textA {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.A h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+/*B*/
+.B {
+    position: relative;
+    grid-row:1;
+    grid-column: 3;
+    background:radial-gradient(#ffffff,#adcae7,#739dcf,#2b62b6);
+}
+.imageB{
+    width: 70%;
+    height:auto;
+    padding-top:10%;
+    padding-left:10%;
+   
+    
+}
+.B:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.B:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.B:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.B:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.B:hover .overlayB {
+    opacity: 80%;
+}
+.overlayB {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.textB {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.B h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+/*C*/
+.C {
+    position: relative;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    background:radial-gradient(#db473e,#d34839,#bc2a1b,#b72227,#861c19);
+}
+.imageC{
+    width: 110%;
+    height: auto;
+    padding-top:70%;
+   
+}
+.C:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.C:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.C:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.C:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.C:hover .overlayC {
+    opacity: 50%;
+}
+.overlayC {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.C:hover .overlayC {
+    opacity: 80%;
+}
+.textC {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.C h1{
+    font-size: 3.5vw;
+    text-decoration: underline;
+}
+
+/*D*/
+.D {
+    position: relative;
+    grid-row:2;
+    grid-column:1;
+    background:radial-gradient(#fff,#d2af79,#a56d30);
+}
+
+.imageD{
+    display: block;
+    width: 65%;
+    height: auto;
+    padding-left:18%;
+    padding-top:2%;
+}
+.D:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.D:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.D:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.D:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.D:hover .overlayD {
+    opacity: 80%;
+}
+.overlayD {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.D:hover .overlayD {
+    opacity: 80%;
+}
+
+.textD {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.D h2{
+    font-size: 2vw;
+    text-decoration: underline;
+}
+/*E*/
+.E {
+    position: relative;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+}
+.imageE{
+    width: 100%;
+    height: 100%;
+}
+/*F*/
+.F {
+    position: relative;
+    grid-row: 3 / span 2;
+    grid-column:1;
+    background:radial-gradient(#c79df3,#8046be,#5611a0)
+}
+.imageF{
+    width:130%;
+    height:auto;
+    padding-top:60%;
+    padding-right:10%;
+    
+}
+.F:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.F:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.F:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.F:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.F:hover .overlayF {
+    opacity: 80%;
+}
+.overlayF {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.F:hover .overlayF {
+    opacity: 80%;
+}
+.textF {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.F h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+/*G*/
+.G {
+    position: relative;
+    grid-row:3;
+    grid-column:4;
+    background:radial-gradient(#fba034,#fc761f,#fe6313)
+}
+.imageG{
+    width:55%;
+    padding-left:20%;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+.G:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.G:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.G:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.G:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.G:hover .overlayG {
+    opacity: 80%;
+}
+.overlayG {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.G:hover .overlayG {
+    opacity: 80%;
+}
+.textG {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.G h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+/*H*/
+.H {
+    position: relative;
+    grid-row:4;
+    grid-column:2;
+    background:radial-gradient(#b72585
+    ,#d53ca7
+    ,#e884d9)
+}
+.imageH{
+    width:60%;
+    padding-left:18%;
+    padding-top:10%;
+}
+.H:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.H:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.H:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.H:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.H:hover .overlayH {
+    opacity: 80%;
+}
+.overlayH {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.H:hover .overlayH {
+    opacity: 80%;
+}
+.textH {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.H h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+/*I*/
+.I {
+    position: relative;
+    grid-row:4;
+    grid-column: 3 / span 2;
+    background:radial-gradient(#297da7,#165478,#083a59,#071a34);
+}
+.imageI{
+    width: 65%;
+    height:auto;
+     padding-left:7%;
+     padding-top:3%;
+}
+.I:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.I:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.I:after{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .5s;
+    transform: scaleY(0);
+    opacity: 0;
+}
+.I:hover:after{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.I:hover .overlayI {
+    opacity: 80%;
+}
+.overlayI {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.I:hover .overlayI {
+    opacity: 80%;
+}
+.textI {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.I h1{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+@media only screen  and (max-width:1700px){
+    .A h1{
+        font-size: 2vw;
+        text-decoration: underline;
+    }
+    .A h2{
+        font-size: 1.5vw;
+       
+    }
+    .B h1{
+        font-size: 2vw;
+        text-decoration: underline;
+    }
+    .B h3{
+        font-size: 1vw;
+       
+    }
+    .C h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+    .C h2{
+        font-size: 1.5vw;
+       
+    }
+    .D h2{
+        font-size: 1.5vw;
+        text-decoration: underline;
+    }
+    .D h3{
+        font-size: .75vw;
+       
+    }
+    .F h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+    .F h2{
+        font-size: 1.5vw;
+       
+    }
+    .G h1{
+        font-size: 1vw;
+        text-decoration: underline;
+    }
+        .G h3{
+        font-size: 1.25vw;
+       
+    }
+    .H h1{
+        font-size: 2.25vw;
+        text-decoration: underline;
+    }
+        .H h2{
+        font-size: 1.25vw;
+       
+    }
+    .I h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+        .I h2{
+        font-size: 1.5vw;
+       
+    }
+}
+@media only screen  and (max-width:1500px){
+    .A h1{
+        font-size: 2vw;
+        text-decoration: underline;
+    }
+    .A h2{
+        font-size: 1.5vw;
+       
+    }
+    .B h1{
+        font-size: 2vw;
+        text-decoration: underline;
+    }
+    .B h3{
+        font-size: 1vw;
+       
+    }
+    .C h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+    .C h2{
+        font-size: 1.5vw;
+       
+    }
+    .D h2{
+        font-size: 1.5vw;
+        text-decoration: underline;
+    }
+    .D h3{
+        font-size: .75vw;
+       
+    }
+    .F h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+    .F h2{
+        font-size: 1.5vw;
+       
+    }
+    .G h1{
+        font-size: 2vw;
+        text-decoration: underline;
+    }
+        .G h3{
+        font-size: 1.25vw;
+       
+    }
+    .H h1{
+        font-size: 2.25vw;
+        text-decoration: underline;
+    }
+        .H h2{
+        font-size: 1.25vw;
+       
+    }
+    .I h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+        .I h2{
+        font-size: 1.5vw;
+       
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .wrapper{
+        display:grid;
+    }
+    .A{
+        grid-row: 2;
+        grid-column: 1 / span 2;
+    }
+    .A h1{
+        font-size: 4vw;
+        text-decoration: underline;
+    }
+    .A h2{
+        font-size: 3vw;
+       
+    }
+    .B{
+        grid-row: 3;
+        grid-column: 1;
+       
+    }
+    .B h1{
+        font-size: 4vw;
+        text-decoration: underline;
+    }
+    .B h3{
+        font-size: 2vw;
+       
+    }
+    .C{
+      grid-row: 3 / span 2;
+      grid-column: 2;
+    }
+    .C h1{
+        font-size: 4.5vw;
+        text-decoration: underline;
+    }
+    .C h2{
+        font-size: 3vw;
+       
+    }
+    .D{
+      grid-row: 7 ;
+      grid-column: 2;
+      
+      }
+    .D h2{
+        font-size: 3.5vw;
+        text-decoration: underline;
+    }
+    .D h3{
+        font-size: 2.5vw;
+       
+    }
+    .E{
+      grid-row: 1;
+      grid-column: 1 / span 2;
+      }
+      .F{
+          grid-row: 6 / span 2;
+          grid-column: 1;
+      }
+    .F h1{
+        font-size: 4.5vw;
+        text-decoration: underline;
+    }
+    .F h2{
+        font-size: 3.5vw;
+       
+    }
+      .G{
+          grid-row:4;
+          grid-column: 1;
+      }
+      .G h1{
+        font-size: 3.5vw;
+        text-decoration: underline;
+    }
+        .G h3{
+        font-size: 2.5vw;
+       
+    }
+      .H
+      {
+          grid-row: 6;
+          grid-column: 2;
+      }
+      .H h1{
+        font-size: 3.5vw;
+        text-decoration: underline;
+    }
+        .H h2{
+        font-size: 2.5vw;
+       
+    }
+      .I{
+          grid-row:5 ;
+          grid-column: 1 / span 2;
+      }
+      .I h1{
+        font-size: 4.5vw;
+        text-decoration: underline;
+    }
+        .I h2{
+        font-size: 3.5vw;
+       
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        display:grid;
+    }
+    .A{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .B{
+        grid-row: 3;
+        grid-column: 1;
+       
+    }
+    .B h1{
+        font-size: 5vw;
+        text-decoration: underline;
+    }
+    .B h3{
+        font-size: 4vw;
+       
+    }
+    .C{
+      grid-row: 4;
+      grid-column: 1;
+    }
+    
+      .C h1{
+          font-size: 6.5vw;
+          text-decoration: underline;
+      }
+      .C h2{
+          font-size: 5vw;
+         
+      }
+    .D{
+      grid-row: 7;
+      grid-column: 1;
+      
+      }
+      .D h2{
+        font-size:5.5vw;
+        text-decoration: underline;
+    }
+    .D h3{
+        font-size: 4.5vw;
+       
+    }
+    .E{
+      grid-row: 1;
+      grid-column: 1;
+      }
+      .F{
+          grid-row: 8;
+          grid-column: 1;
+      }
+      .F h1{
+        font-size: 6.5vw;
+        text-decoration: underline;
+    }
+    .F h2{
+        font-size: 5.5vw;
+       
+    }
+      .G{
+          grid-row:5;
+          grid-column: 1;
+      }
+      .G h1{
+        font-size: 5.5vw;
+        text-decoration: underline;
+    }
+        .G h3{
+        font-size: 4.5vw;
+       
+    }
+      .H
+      {
+          grid-row: 9;
+          grid-column: 1;
+      }
+      .H h1{
+        font-size: 5.5vw;
+        text-decoration: underline;
+    }
+        .H h2{
+        font-size: 4.5vw;
+       
+    }
+      .I{
+          grid-row:6;
+          grid-column: 1;
+      }
+      .I h1{
+        font-size: 4.5vw;
+        text-decoration: underline;
+    }
+        .I h2{
+        font-size: 3.5vw;
+       
+    }
+  }
